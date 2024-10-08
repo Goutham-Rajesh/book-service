@@ -36,6 +36,7 @@ public class BookController {
         return bookRepository.saveAndFlush(bookEntity);
     }
 
+    //hi
     @DeleteMapping("/book/{id}")
     public void deleteById(@PathVariable int id){
         bookRepository.deleteById(id);
